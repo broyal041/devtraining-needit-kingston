@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Needit1000" max_length="40" name="x_58872_needit_needit1000" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="request type" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element label="Human Resources" sequence="0" value="human resources"/>
+                <element label="Facilities" sequence="1" value="facilities"/>
+                <element label="Legal" sequence="2" value="legal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal 1" label="when needed" mandatory="true" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element label="Human Resources1" sequence="0" value="human resources1"/>
+                <element label="Human R2" sequence="1" value="human r2"/>
+                <element label="legal 1" sequence="2" value="legal 1"/>
+                <element label="legal2" sequence="3" value="legal2"/>
+            </choice>
+        </element>
+        <element label="Date/Time" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="requested for" mandatory="true" max_length="32" name="u_reference_2" reference="x_58872_needit_needit1000" type="reference"/>
+    </element>
+</database>
