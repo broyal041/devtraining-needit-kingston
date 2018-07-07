@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_4" table="x_58872_needit_needit1000" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="u_other" table="x_58872_needit_needit1000" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_choice_4</element>
+            <element>u_other</element>
             <hint/>
             <inactive>false</inactive>
             <label>Human Resources1</label>
@@ -11,106 +11,87 @@
             <name>x_58872_needit_needit1000</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-01 07:07:23</sys_created_on>
+            <sys_created_on>2018-07-07 19:46:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>77c2b1154f0f130011b2b63ca310c7fa</sys_id>
+            <sys_id>b42a9b574f87130011b2b63ca310c74f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-01 07:07:23</sys_updated_on>
+            <sys_updated_on>2018-07-07 19:46:40</sys_updated_on>
             <value>human resources1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_choice_4</element>
+            <element>u_other</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Human R2</label>
+            <label>Human Resources2</label>
             <language>en</language>
             <name>x_58872_needit_needit1000</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-01 07:07:23</sys_created_on>
+            <sys_created_on>2018-07-07 19:46:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f3c2b1154f0f130011b2b63ca310c7fc</sys_id>
+            <sys_id>342a9b574f87130011b2b63ca310c751</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-01 07:07:23</sys_updated_on>
-            <value>human r2</value>
+            <sys_updated_on>2018-07-07 19:46:41</sys_updated_on>
+            <value>human resources2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_choice_4</element>
+            <element>u_other</element>
             <hint/>
             <inactive>false</inactive>
-            <label>legal 1</label>
+            <label>lable</label>
             <language>en</language>
             <name>x_58872_needit_needit1000</name>
             <sequence>2</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-01 07:07:23</sys_created_on>
+            <sys_created_on>2018-07-07 19:46:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bfc2b1154f0f130011b2b63ca310c7fd</sys_id>
+            <sys_id>fc2a9b574f87130011b2b63ca310c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-01 07:07:23</sys_updated_on>
-            <value>legal 1</value>
+            <sys_updated_on>2018-07-07 19:46:41</sys_updated_on>
+            <value>lable</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>u_choice_4</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>legal2</label>
-            <language>en</language>
-            <name>x_58872_needit_needit1000</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-01 07:07:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7bc2b1154f0f130011b2b63ca310c7ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-01 07:07:23</sys_updated_on>
-            <value>legal2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_choice_4</element>
+            <element>u_other</element>
             <hint/>
             <inactive>false</inactive>
             <label>other</label>
             <language>en</language>
             <name>x_58872_needit_needit1000</name>
-            <sequence>4</sequence>
+            <sequence>3</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-07 19:49:19</sys_created_on>
+            <sys_created_on>2018-07-07 19:46:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>23ba13974f87130011b2b63ca310c76c</sys_id>
+            <sys_id>b82a9b574f87130011b2b63ca310c754</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-07 19:49:19</sys_updated_on>
+            <sys_updated_on>2018-07-07 19:46:41</sys_updated_on>
             <value>other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>u_choice_4</element>
+            <element>u_other</element>
             <name>x_58872_needit_needit1000</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-01 07:07:23</sys_created_on>
-            <sys_id>bfc2b1154f0f130011b2b63ca310c7fb</sys_id>
+            <sys_created_on>2018-07-07 19:46:41</sys_created_on>
+            <sys_id>fc2a9b574f87130011b2b63ca310c750</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>u_choice_4</sys_name>
+            <sys_name>u_other</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-            <sys_update_name>sys_choice_x_58872_needit_needit1000_u_choice_4</sys_update_name>
+            <sys_update_name>sys_choice_x_58872_needit_needit1000_u_other</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-01 07:07:23</sys_updated_on>
+            <sys_updated_on>2018-07-07 19:46:41</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
