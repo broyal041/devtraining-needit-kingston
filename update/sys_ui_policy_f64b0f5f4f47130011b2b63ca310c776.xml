@@ -2,8 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_58872_needit_needit1000">u_choice_4=other^EQ<item endquery="false" field="u_choice_4" goto="false" newquery="false" operator="=" or="false" value="other"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <conditions table="x_58872_needit_needit1000">u_choice_4=other^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
         <global>true</global>

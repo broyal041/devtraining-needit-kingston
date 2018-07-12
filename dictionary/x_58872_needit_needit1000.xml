@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Needit1000" max_length="40" name="x_58872_needit_needit1000" sizeclass="6" type="collection">
+    <element audit="true" extends="task" label="Needit1000" max_length="40" name="x_58872_needit_needit1000" sizeclass="7" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="when needed" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element label="legal" sequence="0" value="legal"/>
+                <element label="legal1" sequence="1" value="legal1"/>
+                <element label="human resources" sequence="2" value="human resources"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="request type" mandatory="true" max_length="40" name="u_choice_3" type="string">
             <choice>
                 <element label="Human Resources" sequence="0" value="human resources"/>
@@ -8,25 +15,9 @@
                 <element label="Legal" sequence="2" value="legal"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="legal 1" label="other" mandatory="true" max_length="40" name="u_choice_4" type="string">
-            <choice>
-                <element label="Human Resources1" sequence="0" value="human resources1"/>
-                <element label="Human R2" sequence="1" value="human r2"/>
-                <element label="legal 1" sequence="2" value="legal 1"/>
-                <element label="legal2" sequence="3" value="legal2"/>
-                <element label="other" sequence="4" value="other"/>
-            </choice>
-        </element>
-        <element label="Date/Time" mandatory="true" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="lable" label="other" mandatory="true" max_length="40" name="u_other" type="string">
-            <choice>
-                <element label="Human Resources1" sequence="0" value="human resources1"/>
-                <element label="Human Resources2" sequence="1" value="human resources2"/>
-                <element label="lable" sequence="2" value="lable"/>
-                <element label="other" sequence="3" value="other"/>
-            </choice>
-        </element>
-        <element label="requested for" mandatory="true" max_length="32" name="u_reference_2" reference="x_58872_needit_needit1000" type="reference"/>
+        <element label="Date/Time" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="requested for" max_length="32" name="u_reference_2" reference="x_58872_needit_needit1000" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="request for email" max_length="40" name="u_request_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_3" type="string"/>
     </element>
 </database>
